@@ -1,0 +1,17 @@
+.products-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products-page .header {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+.products-page .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    padding: 2rem;
+}
